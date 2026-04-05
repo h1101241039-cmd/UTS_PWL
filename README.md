@@ -5,16 +5,15 @@ Aplikasi CRUD Mahasiswa menggunakan Bun.js + Hono + Prisma + MySQL + Tailwind CS
 
 ## Tech Stack
 
-| | |
-|---|---|
-| **Runtime** | Bun.js v1.3.11 |
-| **Framework** | Hono |
-| **ORM** | Prisma v5.22.0 |
-| **Database** | MySQL 8 |
-| **View Engine** | EJS |
-| **CSS** | Tailwind CSS v3 |
-| **Dev Environment** | GitHub Codespaces + Docker Compose |
+- **Runtime**: Bun.js v1.3.11
+- **Framework**: Hono
+- **ORM**: Prisma v5.22.0
+- **Database**: MySQL 8
+- **View Engine**: EJS
+- **CSS**: Tailwind CSS v3
+- **Dev Environment**: GitHub Codespaces + Docker Compose
 
+---
 ---
 
 ## Cara Menjalankan (Setiap Buka Codespaces)
