@@ -17,26 +17,26 @@ Aplikasi CRUD Mahasiswa menggunakan Bun.js + Hono + Prisma + MySQL + Tailwind CS
 ## Cara Menjalankan (Setiap Buka Codespaces)
 
 ### Normal (setelah close tab biasa)
-\`\`\`bash
+```bash
 bun run src/app.js
-\`\`\`
+```
 
 ### Kalau Ada Error Database (setelah rebuild container)
-\`\`\`bash
+```bash
 bunx prisma migrate deploy
 bun run src/app.js
-\`\`\`
+```
 
 ### Kalau Ada Error Prisma Client
-\`\`\`bash
+```bash
 bunx prisma generate
 bun run src/app.js
-\`\`\`
+```
 
 ### Kalau CSS Tidak Tampil
-\`\`\`bash
+```bash
 bunx tailwindcss -i ./src/public/css/input.css -o ./src/public/css/output.css
-\`\`\`
+```
 
 ---
 
