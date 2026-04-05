@@ -21,6 +21,22 @@ Aplikasi CRUD Mahasiswa menggunakan Bun.js + Hono + Prisma + MySQL + Tailwind CS
 ### Normal
     bun run src/app.js
 
+### Jika Terjadi Error Saat Buka Ulang Codespaces
+
+Jalankan perintah berikut secara berurutan:
+
+#### 1. Buat ulang file .env
+    echo 'DATABASE_URL="mysql://root:root@mysql:3306/bun_crud"' > .env
+
+#### 2. Buat ulang tabel database
+    bunx prisma migrate deploy
+
+#### 3. Jalankan server
+    bun run src/app.js
+
+#### Atau jalankan sekaligus dalam satu perintah
+    echo 'DATABASE_URL="mysql://root:root@mysql:3306/bun_crud"' > .env && bunx prisma migrate deploy && bun run src/app.js
+
 ### Setelah Rebuild Container
     bunx prisma migrate deploy
     bun run src/app.js
